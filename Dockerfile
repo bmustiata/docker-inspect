@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER Bogdan Mustiata <bogdan.mustiata@gmail.com>
 
-ENV REFRESHED_AT 2016.07.07-12:13:13
+ENV REFRESHED_AT 2016.07.07-18:30:44
 
 RUN apt-get update -y && \
     apt-get install -y mercurial git vim byobu && \
